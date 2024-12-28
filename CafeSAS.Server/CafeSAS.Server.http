@@ -1,0 +1,6 @@
+@CafeSAS.Server_HostAddress = http://localhost:5202
+
+GET {{CafeSAS.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
