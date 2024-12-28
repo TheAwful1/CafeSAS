@@ -28,4 +28,11 @@
     </ProjectReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="Migrations\" />
+    <Folder Include="Repository\Implementation\" />
+    <Folder Include="Repository\Interface\" />
+  </ItemGroup>
+
 </Project>

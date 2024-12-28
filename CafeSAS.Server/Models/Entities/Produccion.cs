@@ -1,4 +1,4 @@
-﻿namespace CafeSAS.Server.Models
+﻿namespace CafeSAS.Server.Models.Entities
 {
     public class Produccion
     {
