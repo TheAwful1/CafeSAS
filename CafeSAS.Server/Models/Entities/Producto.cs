@@ -11,8 +11,10 @@
         public string? Descripcion { get; set; }
         public string? UnidadMedida { get; set; }
         public int? CantidadTotal { get; set; }
+        public string Estado { get; set; }
+
         public Categorias Categorias { get; set; }
         public Guid? ID_Categoria { get; set; }
-        public string Estado { get; set; }
+        
     }
 }

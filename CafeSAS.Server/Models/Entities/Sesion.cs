@@ -2,7 +2,7 @@
 {
     public class Sesion
     {
-        
+        public Guid ID_Sesion { get; set; }
         public DateTime Fecha { get; set; }
 
         public TimeSpan HoraEntrada { get; set; }
