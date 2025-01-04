@@ -1,5 +1,8 @@
-﻿namespace CafeSAS.Server.Models.Entities
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace CafeSAS.Server.Models.Entities
 {
+    [Keyless]
     public class Inventario
     {
         public ICollection<Empleado> Empleados { get; set; } = new List<Empleado>();
