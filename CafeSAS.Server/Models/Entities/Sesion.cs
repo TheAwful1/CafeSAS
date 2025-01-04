@@ -1,7 +1,10 @@
-﻿namespace CafeSAS.Server.Models.Entities
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace CafeSAS.Server.Models.Entities
 {
     public class Sesion
     {
+        [Key]
         public Guid ID_Sesion { get; set; }
         public DateTime Fecha { get; set; }
 

@@ -7,5 +7,7 @@
         public bool Permiso { get; set; }
         public ICollection<Ventas> Ventas { get; set; } = new List<Ventas>();
         
+        public Tienda Tienda { get; set; }
+        public Guid ID_Tienda { get; set; }
     }
 }

@@ -1,7 +1,10 @@
-﻿namespace CafeSAS.Server.Models.Entities
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace CafeSAS.Server.Models.Entities
 {
     public class Producto
     {
+        [Key]
         public Guid ID_Producto { get; set; }
         public string Nombre { get; set; }
         public string Cantidad { get; set; }

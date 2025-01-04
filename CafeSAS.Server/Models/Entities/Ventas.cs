@@ -1,8 +1,11 @@
-﻿namespace CafeSAS.Server.Models.Entities
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace CafeSAS.Server.Models.Entities
 {
     public class Ventas
     {
-        public Guid ID_Ventas { get; set; }
+        [Key]
+        public Guid ID_Venta { get; set; }
         public int Monto { get; set; }
         public DateOnly Fecha { get; set; }
         public TimeOnly Hora { get; set; }
